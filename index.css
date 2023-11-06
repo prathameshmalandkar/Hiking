@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background: #e0e0e0;
+    background-image: url(/images/banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.navigation{
+    display: flex;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.navigation img{
+    margin: 36px 102px 0 57px;
+}
+.nav-bar li{
+    font-size: 21px;
+    line-height: 29px;
+    color: #2f4959;
+    font-weight: 700;
+    margin: 0 42px 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.head{
+    margin: 153px 0 0 137px;
+}
+.head h1{
+    font-size: 112px;
+    line-height: 92px;
+    text-transform: uppercase;
+    color: #ff705b;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'League Gothic', sans-serif;
+    margin-bottom: 51px;
+}
+.head p{
+    font-size: 25px;
+    line-height: 29px;
+    color: #2f4959;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Montserrat";
+    margin-bottom: 54px;
+}
+.head button{
+    font-size: 29px;
+    line-height: 29px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Montserrat";
+    padding: 27px 32px;
+    border: 1px solid #ff705b;
+    border-radius: 20px;
+    background-color: #ff705b;
+    margin-bottom:284px ;
+}
+/* about section */
+.about{
+    background-color: #e0e0e0;
+}
+.about h1{
+    font-size: 67px;
+    line-height: 29px;
+    color: #2f4959;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "League Gothic";
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about p{
+    font-size: 21px;
+    line-height: 29px;
+    color: #2f4959;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.boxs{
+    margin: 110px 143px 0 143px;
+    display: flex;
+    text-align: center;
+    column-gap: 199px;
+    /* padding-bottom: 72px; */
+}
+.box h3{
+    font-size: 21px;
+    line-height: 29px;
+    color: #ff705b;
+    font-weight: 900;
+    font-style: italic;
+    font-family: "Montserrat";
+    margin: 83px 0 30px 0;
+    text-transform: uppercase;
+}
+.box p{
+    font-size: 21px;
+    line-height: 29px;
+    color: #2f4959;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+/* explore section */
+.explore{
+    background-image: url(images/banner2.png);
+    background-size: 575px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #e0e0e0;
+    background-position-x: 150px;
+}
+.explore h1{
+    font-size: 67px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #ff705b;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "League Gothic";
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 72px;
+}
+.explore p{
+    font-size: 21px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #2f4959;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.explore_boxs{
+    width: 700px;
+    margin: 132px 0 0 731px;
+
+}
+.explore_box{
+    display: flex;
+}
+.explore_box .explore_details h3{
+    font-size: 21px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #ff705b;
+    font-weight: 900;
+    font-style: italic;
+    font-family: "Montserrat";
+    text-align: left;
+
+}
+.explore_box .explore_details p{
+    width: 276px;
+    font-size: 21px;
+    line-height: 29px;
+    color: #2f4959;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-top: 42px;
+    text-align: left
+}
+.explore_btn{
+    font-size: 29px;
+    line-height: 29px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Montserrat";
+    padding: 31px 32px;
+    border: 1px solid #ff705b;
+    border-radius: 20px;
+    background-color: #ff705b;
+    margin:78px 0 0 101px;
+}
+.btn_mar{
+    margin:78px 101px 0 0;
+}
+/* wild info */
+.wild_info{
+    background-image: url(/images/background_image1.png);
+    background-color: #e0e0e0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+.wild_info_detail h1{
+    font-size: 67px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "League Gothic";
+    padding: 320px 0 60px 0;
+}
+.wild_info_detail p{
+    font-size: 21px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #2f4959;
+    font-weight: 500;
+    font-style: italic;
+    font-family: "Montserrat";
+    margin:0 366px 49px 366px ;
+}
+.wild_info_detail h5{
+    line-height: 35px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    padding-bottom: 258px;
+}
+/* Team section */
+.team{
+    background-color: #e0e0e0;
+}
+.team h1{
+    font-size: 67px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #ff705b;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "League Gothic";
+    text-align: center;
+    padding: 135px 0 30px 0;
+}
+.team p{
+    font-size: 21px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #2f4959;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.team-boxs{
+    margin: 75px 119px 0 119px;
+    display: flex;
+    text-align: center;
+    column-gap: 106px;
+    padding-bottom: 50px;
+}
+.team-box h3{
+    font-size: 21px;
+    line-height: 29px;
+    color: #ff705b;
+    font-weight: 900;
+    font-style: italic;
+    font-family: "Montserrat";
+    margin: 83px 0 30px 0;
+    text-transform: uppercase;
+}
+.team-box p{
+    font-size: 21px;
+    line-height: 29px;
+    color: #2f4959;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-transform:capitalize;
+}
+/* blog section */
+.blog{
+    background-image: url(/images/banner3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #e0e0e0;
+}
+.blog-info{
+    padding: 131px 0 0 212px;
+}
+.blog h1{
+    font-size: 67px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #ff705b;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "League Gothic";
+    margin-bottom:37px ;
+}
+.blog p{
+    font-size: 21px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #2f4959;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Montserrat";
+    margin-bottom: 45px;
+}
+.blog-info-img{
+    width: 475px;
+}
+.blog-info-btn{
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Montserrat";
+    border: 1px solid #ff705b;
+    border-radius: 10px;
+    background-color: #ff705b;
+    text-align: left;
+    margin-top: 62px;
+    padding: 29px 36px;
+    margin-bottom: 350px;
+}
